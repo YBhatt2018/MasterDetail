@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.PrintNonTDSB"
+    Padding="20">
+	<ContentPage.Content>
+
+        <ScrollView>
+        <StackLayout Spacing="20">
+                
+                 <StackLayout Padding="40,0,40,10">
+                    <Image Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Frame>
+           <Grid>
+           <Label Text="Student Details" Grid.Row="0" HorizontalOptions="Center" FontAttributes="Bold" />
+
+                    <Label Text="First Name" Grid.Row="1"/>
+                    <Label Text="Last Name" Grid.Row="2"/>
+                    <Label Text="Reference Name" Grid.Row="3"/>
+                    <Label Text="Date Of Birth" Grid.Row="4"/>
+                    <Button Text="Change Profile" Grid.Row="5" HorizontalOptions="Start" Clicked="Handle_Clicked_Profile" />
+
+
+                </Grid>
+            </Frame>
+            <StackLayout Spacing="20">
+            <Label Text="Confirmation" FontAttributes="Bold" />
+            <Label Text="Thank You. have successfully submitted an application"/>
+            </StackLayout>
+
+             <Grid Padding="0,50,0,0" RowSpacing="10">
+            <Label Text="status"  Grid.Row="0" Grid.Column="0"/>
+                <Label Text="next steps" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="student" Grid.Row="6" Grid.Column="0"/>
+                <Label Text="Your application is recieved and an audition will be scheduled for the student" Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+                <Label Text="You will be notifed for the date and time of the audiotion" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                <Label Text="name" Grid.Row="6" Grid.Column="1"/>
+            </Grid>
+
+            <StackLayout>
+            <Label Text="Program and school selection:" FontAttributes="Bold"/>
+                    <Frame>
+                    <Label Text="Please print the reference number to check the application status and to accept or cancel the offer of placement"/>
+
+
+                    </Frame>
+                                        <Button Text="Exit" Clicked="Handle_Clicked_Exit"/>
+
+                </StackLayout>
+
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+        </StackLayout>
+            </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

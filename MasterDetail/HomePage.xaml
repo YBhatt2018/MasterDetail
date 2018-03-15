@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MasterDetail.HomePage" xmlns:custom="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.Core" Padding="20" Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="tdsb" />
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+    <StackLayout>
+        <StackLayout Padding="40,0,40,10">
+            <Image  Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit" />
+        </StackLayout>
+        <StackLayout Padding="0,20,0,0">
+            <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+            <StackLayout Padding="40,10,40,0">
+                <Label HorizontalOptions="Center" FontSize="18" HorizontalTextAlignment="Center" Text="Please click on one option to continue." />
+                <Grid ColumnSpacing="30" HorizontalOptions="Center" Padding="30,10,20,0">
+                    <Button Clicked="Handle_ClickedApply" Image="apply.png" BorderRadius="30" Grid.Row="0" Grid.Column="0" FontSize="14" TextColor="#28282c" BackgroundColor="#fff" />
+                    <Button Clicked="Chekc_ClickedApply" Image="check.png"  BorderRadius="30" Grid.Row="0" Grid.Column="1" FontSize="14" TextColor="#28282c" BackgroundColor="#fff" />
+                    <Label Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" Text="Apply&#xA;for a program" />
+                    <Label Grid.Row="1" Grid.Column="1" HorizontalTextAlignment="Center" Text="Check the status &#xA; of my child's application" />
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© TDSB Powered By Research And Information Services"/>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,179 @@
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csprojResolveAssemblyReference.cache
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csproj.CoreCompileInputs.cache
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.App.xaml.g.cs
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MainPage.xaml.g.cs
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/MasterDetail.dll
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/MasterDetail.pdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.xml
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.dll
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.pdb
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.HomePage.xaml.g.cs
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.FAQPage.xaml.g.cs
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ContactUSPage.xaml.g.cs
+/Users/ironman/Projects/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MasterPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/MasterDetail.dll
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/MasterDetail.pdb
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.xml
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csprojResolveAssemblyReference.cache
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csproj.CoreCompileInputs.cache
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.App.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.HomePage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.FAQPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ContactUSPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MainPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MasterPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplyProgram.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.TDSBstudent.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.NotTDSB.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.StreetAddress.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ChangeEmail.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationNonTDSB.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationNonTDSB.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PrintNonTDSB.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CheckStatus.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OENPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.REFPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OfferPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PlacementPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.AcceptancePage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.Confirmation_Accept.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CancellationPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ReasonPage.xaml.g.cs
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.dll
+/Users/yoginbhatt/Documents/GitHub/MasterDetail/MasterDetail/obj/Debug/MasterDetail.pdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/MasterDetail.dll
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/MasterDetail.pdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.xml
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csprojResolveAssemblyReference.cache
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csproj.CoreCompileInputs.cache
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.App.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.HomePage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.FAQPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ContactUSPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MainPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MasterPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplyProgram.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.TDSBstudent.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.NotTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.StreetAddress.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ChangeEmail.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PrintNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CheckStatus.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OENPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.REFPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OfferPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PlacementPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.AcceptancePage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.Confirmation_Accept.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CancellationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ReasonPage.xaml.g.cs
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.dll
+/Users/tirthpatel/Desktop/MasterDetail/MasterDetail/obj/Debug/MasterDetail.pdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/MasterDetail.dll
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/MasterDetail.pdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.pdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.dll.mdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Core.xml
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.pdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csprojResolveAssemblyReference.cache
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.csproj.CoreCompileInputs.cache
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.App.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MainPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.MasterPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplyProgram.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.TDSBstudent.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CheckStatus.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OENPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.REFPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.OfferPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PlacementPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.AcceptancePage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.Confirmation_Accept.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.CancellationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ReasonPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.HomePage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ContactUSPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.FAQPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ApplicationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ChangeEmail.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.ConfirmationPage.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.NotTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.PrintNonTDSB.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.StreetAddress.xaml.g.cs
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.dll
+/Users/tirthpatel/Desktop/TDSB Work/MasterDetail/MasterDetail/obj/Debug/MasterDetail.pdb
+C:\temp\MasterDetail\MasterDetail\bin\Debug\MasterDetail.dll
+C:\temp\MasterDetail\MasterDetail\bin\Debug\MasterDetail.pdb
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Core.dll
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Platform.dll
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Core.pdb
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Core.xml
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\temp\MasterDetail\MasterDetail\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.csproj.CoreCompileInputs.cache
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.App.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.MainPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.MasterPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ApplyProgram.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.TDSBstudent.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ApplicationNonTDSB.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.CheckStatus.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.OENPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.REFPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.OfferPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.PlacementPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.AcceptancePage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.Confirmation_Accept.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.CancellationPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ReasonPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.HomePage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ContactUSPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.FAQPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ApplicationPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ChangeEmail.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ConfirmationNonTDSB.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.ConfirmationPage.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.NotTDSB.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.PrintNonTDSB.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.StreetAddress.xaml.g.cs
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.csproj.CopyComplete
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.dll
+C:\temp\MasterDetail\MasterDetail\obj\Debug\MasterDetail.pdb

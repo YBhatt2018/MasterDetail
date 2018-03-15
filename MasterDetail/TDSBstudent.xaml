@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.TDSBstudent"
+    Padding="20,30,20,20"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20">
+            <StackLayout Padding="40,0,40,10">
+                    <Image  Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit" />
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Label Text="Child Information" />
+            <Label Text="Please enter the following information and then click Next to continue with the application"/>
+            <Label Text="1. Child's Date of birth"/>
+            <StackLayout>
+      <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static sys:DateTime.Now}">
+         <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+         <DatePicker.MinimumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Jan 1 2000</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MinimumDate>
+         <DatePicker.MaximumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Dec 31 2050</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MaximumDate>
+      </DatePicker>
+   </StackLayout>
+            <StackLayout>
+            <Label Text="2. Ontraio Education Number"/>
+                <Grid >
+                <Entry Keyboard="Numeric" Placeholder="123" Grid.Row="0" Grid.Column="0"/>
+                     <Entry Keyboard="Numeric" Placeholder="123" Grid.Row="0" Grid.Column="1"/>
+                     <Entry Keyboard="Default" Placeholder="123" Grid.Row="0" Grid.Column="2"/>
+                </Grid>
+            </StackLayout>
+            <StackLayout Spacing="05">
+                <Label Text="3. postel code" />
+                <Grid>
+                <Entry Keyboard="Numeric" Placeholder="C4C" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Keyboard="Numeric" Placeholder="4c4" Grid.Row="0" Grid.Column="1"/>
+                    
+                </Grid>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="30 " Padding="0,50,0,0" >
+                             <Button BorderRadius="20" Text="Exit" Clicked="Handle_Clicked_back" BorderColor="Silver"/>
+
+                    
+                
+                                <Button Text="Next" Clicked="Handle_Clicked_next"/>
+
+              
+            </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© TDSB Powered By Research And Information Services"/>
+
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

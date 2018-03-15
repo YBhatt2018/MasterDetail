@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.AcceptancePage"
+    Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+    <StackLayout Spacing="20">
+                <Label Text="Welcome to TDSB'S Specialized Registeration System" TextColor="#FF6F05"/>
+            <Frame>
+            <Grid>
+            <Label Text="Student Details" Grid.Row="0" HorizontalOptions="Center"/>
+                    <Label Text="First Name" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="Last Name" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="OEN" Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="Date Of Birth" Grid.Row="4" Grid.Column="0"/>
+                    <Button Text="Change Email" Grid.Row="5" Clicked="Handle_Clicked_Email" />
+                    <Button Text="Exit" Grid.Row="6" HorizontalOptions="Start" Clicked="Handle_Clicked_Exit" />
+                    
+           
+                </Grid>
+
+            </Frame>
+
+            <StackLayout Spacing="20">
+
+            <Label Text="Accept Placement"/>
+
+            </StackLayout>
+
+            <Grid>
+            <Label Text="Student" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="data"  Grid.Row="0" Grid.Column="1"/>
+
+            </Grid>
+
+            <Grid>
+            <Label Text="Placement" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="You have been offer following placement" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+
+            <Grid>
+            <Label Text="Program" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="School" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="Grade" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="Data" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Data" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Data" Grid.Row="2" Grid.Column="1"/>
+            </Grid>
+            <Frame>
+                    <StackLayout>
+            <Label Text="Agreement of placement" FontAttributes="Bold"/>
+            <Label Text="Guidelines"/>
+                        </StackLayout>
+                </Frame>
+            <Grid>
+            <Label Text="Acceptance"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="picker_acceptance" Title="Select Your Resonse" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>I Agree</x:String>
+
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+
+            <Button Text="Accept Placement" Clicked="Handle_Clicked_accept"/>
+                
+        </StackLayout>
+
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.StreetAddress"
+    Padding="20"
+    >
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20">
+            <StackLayout Padding="40,0,40,10">
+            <Image HorizontalOptions="Center" Source="logo.png"/>
+            </StackLayout>
+            <Label Text="Address" FontSize="20" HorizontalTextAlignment="Center"/>
+            <Label Text="Enter Your Postel Code Below" />
+            <Grid>
+            <Entry Placeholder="a1a" Grid.Row="0" Grid.Column="0"/>
+                <Entry Placeholder="1a1" Grid.Row="0" Grid.Column="1"/>
+
+            </Grid>
+            <StackLayout Spacing="20">
+                <Frame HeightRequest="10">
+            <Button Text="Look-up"/>
+                    </Frame>
+                <Grid ColumnSpacing="20">
+                <Label Text="Street number" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Address" Grid.Row="0" Grid.Column="1" />
+                    <Label Text="Unit Number" Grid.Row="0" Grid.Column="2"/>
+                    <Entry Keyboard="Numeric" Placeholder="12" Grid.Row="1" Grid.Column="0"/>
+                    <Entry Placeholder="abcde" Grid.Row="1" Grid.Column="1" />
+                    <Entry Keyboard="Numeric" Placeholder="12" Grid.Row="1" Grid.Column="2" />
+                </Grid>
+            </StackLayout>
+            <StackLayout>
+                <Frame HeightRequest="10">
+                <Button Text="Save" HorizontalOptions="Center"/>
+                </Frame>
+            
+            </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+        </StackLayout>
+            </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

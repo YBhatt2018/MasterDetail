@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.ApplicationNonTDSB"
+    Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+
+        <StackLayout>
+                 <StackLayout Padding="40,0,40,10">
+                    <Image Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit" />
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Label Text="Student Details"/>
+            
+        <Frame>
+                <Grid>
+                <Label Text="First Name" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Last Name" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="Birth Date" Grid.Row="2" Grid.Column="0"/>
+                                        
+                    
+
+
+                </Grid>
+
+        </Frame>
+       
+         <Label Text="select a program and school"/>
+         <Grid>
+                <Label Text="School" Grid.Row="0" Grid.Column="0" />
+        <Picker Grid.Row="0" Grid.Column="1" x:Name="picker" Title="Select a school" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>abc</x:String>
+      <x:String>def</x:String>
+      <x:String>ghi</x:String>
+      <x:String>jkl</x:String>
+      <x:String>mno</x:String>
+      <x:String>pqr</x:String>
+      <x:String>stu</x:String>
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+                </Grid>
+            <StackLayout Spacing="20" >
+            <Grid>
+            <Label Text="Program"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="pickea" Title="Select a program" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>abc</x:String>
+      <x:String>Capuchin Monkey</x:String>
+      <x:String>Blue Monkey</x:String>
+      <x:String>Squirrel Monkey</x:String>
+      <x:String>Golden Lion Tamarin</x:String>
+      <x:String>Howler Monkey</x:String>
+      <x:String>Japanese Macaque</x:String>
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+
+            <StackLayout>
+            <Label Text="Please provide a email address to recieve notification"/>
+                <Grid>
+                <Label Text="Email" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Keyboard="Email" Placeholder="Enter Your Email Addresss Here" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Label Text="Confirm Email" Grid.Row="1" Grid.Column="0"/>
+                    <Entry Keyboard="Email" Placeholder="Enter Your Email Adress Again" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+
+                </Grid>
+                <StackLayout>
+                <Button Text="Don't have an email?" Clicked="Handle_Clicked_Address"/>
+                </StackLayout>
+            </StackLayout>
+                    <Label Text="Disclaimer" FontAttributes="Bold"/>
+           <Frame>
+
+                <Grid>
+                <Label Text="A future email will be sent to your email or address for your confirming details" Grid.Row="0"  Grid.ColumnSpan="2"/>
+                <Label Text="Acceptance" Grid.Row="1" Grid.Column="0" />
+        <Picker Grid.Row="1" Grid.Column="0" x:Name="acceptance_picker" Title="Do You Accept" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>I Accept</x:String>
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+                </Grid>    
+                </Frame>
+                        
+            <StackLayout Orientation="Horizontal" Spacing="40">
+            <Button Text="Exit" Clicked="Handle_Clicked_Back"/>
+                <Button Text="submit" Clicked="Handle_Clicked_Submit"/> 
+                
+            </StackLayout>
+            </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+            </StackLayout>
+            </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

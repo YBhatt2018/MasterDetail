@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MasterDetail"
+    x:Class="MasterDetail.ContactUSPage"
+    Padding="20"
+    Title="ContactUS">
+        <StackLayout Padding="0,30,0,0">
+        <StackLayout Padding="50,0,50,10">
+            <Image HorizontalOptions="Center" Source="logo.png" />
+        </StackLayout>
+        <StackLayout Padding="10">
+                    <Label FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center" Text="Contact-Us" />
+        </StackLayout>
+        <StackLayout Padding="20,20,20,0">
+            <Grid RowSpacing="20" ColumnSpacing="20">
+            <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+                     <RowDefinition Height="30" />
+            <RowDefinition Height="100" />
+                     <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+
+                
+            <Image Grid.Row="0" Grid.Column="0" Source="ClaudeWatson.jpg"></Image>
+            <Label VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="1" Text="Claude Watsons School for the Art" />
+            <Button VerticalOptions="Center" Grid.Row="1" Grid.ColumnSpan="2" Text="416-395-3180"/>
+            <Image Grid.Row="2" Grid.Column="0" Source="ClaudeWatson.jpg"></Image>
+            <Label VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="1" Text="Karen Kain School of the Arts" />
+            <Button VerticalOptions="Center" Grid.Row="3" Grid.ColumnSpan="2"  Text="416-394-7979"/>
+            </Grid>
+
+        </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+        
+    </StackLayout>
+</ContentPage>

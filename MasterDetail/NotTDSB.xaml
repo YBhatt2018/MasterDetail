@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.NotTDSB"
+    Padding="20"
+     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<ContentPage.Content>
+       
+            <ScrollView>
+
+            <StackLayout Spacing="15">
+                 <StackLayout Padding="40,0,40,10">
+                    <Image  Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Label Text="Enter personal information below:"/>
+            <Label Text="Complete the following information and click next to continue"/>
+            <Label Text="Student information"/>
+                <Grid>
+                <Label Text="Legal last name" Grid.Row="0" Grid.Column="0"/>
+                   <Label Text="Legal first name" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="Middle name" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="Preferred first name" Grid.Row="3" Grid.Column="0"/>
+                    <Entry Placeholder="Last name" Grid.Row="0" Grid.Column="1"/>
+                    <Entry Placeholder="First name" Grid.Row="1" Grid.Column="1"/>
+                    <Entry Placeholder="Middle name" Grid.Row="2" Grid.Column="1"/>
+                    <Entry Placeholder="Preferred first name" Grid.Row="3" Grid.Column="1"/>
+
+                </Grid>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Date of birth"/>
+                <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static sys:DateTime.Now}">
+         <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+         <DatePicker.MinimumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Jan 1 2000</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MinimumDate>
+         <DatePicker.MaximumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Dec 31 2050</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MaximumDate>
+      </DatePicker>
+
+                </StackLayout>
+                <Grid>
+                <Label Text="Gender" Grid.Row="0" Grid.Column="0" />
+        <Picker Grid.Row="0" Grid.Column="1" x:Name="picker" Title="Choose" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>Male</x:String>
+      <x:String>Female</x:String>
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+                </Grid>
+                <Grid>
+            <Label Text="Grade"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="pickea" Title="Choose a grade" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>a+</x:String>
+      <x:String>a</x:String>
+      <x:String>a-</x:String>
+      <x:String>b+</x:String>
+      <x:String>b</x:String>
+      <x:String>b-</x:String>
+      <x:String>c+</x:String>
+      <x:String>c</x:String>
+      <x:String>c-</x:String>
+      <x:String>d-</x:String>
+      <x:String>f</x:String>
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+               <Grid>
+                <Label Text="OEN number" Grid.Row="0" Grid.Column="0"/>
+
+                    <Entry Keyboard="Numeric" Placeholder="enter nine digits" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    
+                    
+                </Grid>
+                <Grid>
+            <Label Text="School-Board"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="board" Title="Choose a board" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>Home</x:String>
+      <x:String>other</x:String>
+     
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+             <Grid>
+            <Label Text="Other-Board"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="other" Title="Choose a board" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>Home</x:String>
+      <x:String>other</x:String>
+     
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+                <Grid>
+
+                <Label Text="Other school name" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Placeholder="Enter your school name here" Grid.Row="0" Grid.Column="1"/> 
+                </Grid>
+                <StackLayout>
+                <Label Text="Parent/Guardian Information" />
+                </StackLayout>
+                <Grid>
+            <Label Text="Title"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="title" Title="Choose a board" Grid.ColumnSpan="2">
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>M.</x:String>
+      <x:String>Ms.</x:String>
+       <x:String>Dr.</x:String>
+      <x:String>Mr.</x:String>
+      <x:String>Mrs.</x:String>
+      <x:String>Miss</x:String>
+     
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+                <Grid>
+                <Label Text="Legal Last Name" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Placeholder="Lastname" Grid.Row="0" Grid.Column="1"/> 
+                    <Label Text="Legal First Name" Grid.Row="1" Grid.Column="0"/>
+                    <Entry Placeholder="Firstname" Grid.Row="1" Grid.Column="1"/> 
+                    <Label Text="Preferrable First Name" Grid.Row="2" Grid.Column="0"/>
+                    <Entry Placeholder="First" Grid.Row="2" Grid.Column="1"/> 
+                </Grid>
+                <StackLayout>
+                <Label Text="Contact information"/>
+                <Label Text="My home address is:"/>
+                    
+                </StackLayout>
+                <Grid>
+            <Label Text="Home address"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="address" Title="Choose a location" Grid.ColumnSpan="2" SelectedIndexChanged="Handle_SelectedIndexChanged">
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>In Toronto</x:String>
+      <x:String>Outside of Toronto</x:String>
+       
+     
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+            <StackLayout>
+            <Label Text="The street name of your home address"/>
+                    <Label Text="Do not enter street number,street type or punctuation"/>
+                    <Label Text="For example type in st andrews,instead of 100st andrew"/>
+                    
+
+                </StackLayout>
+
+                <Grid>
+                <Label Text="Street" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Placeholder="enter" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Button Text="search" Grid.Row="0" Grid.Column="2"/>
+                    
+
+                 </Grid>
+
+                <Grid>
+                <Label Text="Street No." Grid.Row="0" Grid.Column="0"/>
+                    <Entry Keyboard="Numeric" Placeholder="No." Grid.Row="0" Grid.Column="1"/>
+                    
+
+                </Grid>
+                <Grid>
+                <Label Text="Apartment No." Grid.Row="0" Grid.Column="0"/>
+                    <Entry Keyboard="Numeric" Placeholder="No." Grid.Row="0" Grid.Column="1"/>
+                    
+
+                </Grid>
+                <Grid>
+                <Label Text="Postel Code No." Grid.Row="0" Grid.Column="0" />
+                    <Entry Placeholder="Enter" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                    <Label Text="Six Characters, No Spaces" Grid.Row="0" Grid.Column="2"/>
+                    
+
+                </Grid>
+                <Grid>
+                <Label Text="city" x:Name= "city" IsVisible="false" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Placeholder="enter city name here" x:Name="cityname" Grid.Row="0" Grid.Column="1" IsVisible="false"/>
+                    <Label Text="Province" x:Name="province" Grid.Row="1" Grid.Column="0" IsVisible="false"/>
+                    <Entry Placeholder="enter your province" x:Name="provincename" Grid.Row="1" Grid.Column="1" IsVisible="false"/>
+                    <Label Text="country" x:Name="country" Grid.Row="2" Grid.Column="0"  IsVisible="false"/>
+                    <Entry Placeholder="enter your country" Grid.Row="2" Grid.Column="1" x:Name="countryname" IsVisible="false"/> 
+
+                </Grid>
+
+                <Grid>
+                <Label Text="Home Phone" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Grid.Row="0" Grid.Column="1" Keyboard="Numeric"  />
+                     <Entry Grid.Row="0" Grid.Column="2" Keyboard="Numeric"/>
+                     <Entry Grid.Row="0" Grid.Column="3" Keyboard="Numeric"    />
+
+                </Grid>
+                <Grid>
+                <Label Text="Work Phone" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Grid.Row="0" Grid.Column="1" Keyboard="Numeric"  />
+                     <Entry Grid.Row="0" Grid.Column="2" Keyboard="Numeric"/>
+                     <Entry Grid.Row="0" Grid.Column="3" Keyboard="Numeric"    />
+
+                </Grid>
+
+                <Grid>
+                <Label Text="Primary Email Address" Grid.Row="0" Grid.Column="0"/>
+                    <Entry Keyboard="Email" Placeholder="Email" Grid.Row="0" Grid.Column="1"/>
+                    <Label Text="Confirm Email Address" Grid.Row="1" Grid.Column="0"/>
+                    <Entry Keyboard="Email" Placeholder="Type Email Again" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Secondary Email Address" Grid.Row="2" Grid.Column="0"/>
+                    <Entry Keyboard="Email" Placeholder="type another address" Grid.Row="2" Grid.Column="1"/>
+
+                </Grid>
+                <StackLayout Orientation="Horizontal">
+                <Button Text="Exit" Clicked="Handle_ClickedExit" HorizontalOptions="StartAndExpand"/>
+
+                <Button Text="Next" Clicked="Handle_Clicked" HorizontalOptions="EndAndExpand"/>
+                    
+                </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© TDSB Powered By Research And Information Services"/>
+
+             </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

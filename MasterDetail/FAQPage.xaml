@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.FAQPage"
+    Padding="0,20,0,0"
+    Title="FAQ">
+    <StackLayout>
+
+    <Label Text="There is no question asked yet" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+    </StackLayout>
+	   
+</ContentPage>

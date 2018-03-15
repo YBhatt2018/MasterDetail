@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.ApplyProgram"
+    Padding="20">
+	<ContentPage.Content>
+        
+        <StackLayout Spacing="20">
+            <StackLayout Padding="40,0,40,10">
+                <Image  Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+
+            <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+            <Label Text="To begin the application process choose one of the options"/>
+            <Grid>
+                
+            <Button Text="A TDSB Student" FontAttributes="Bold"  Clicked="Handle_Clicked_TDSB" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2"/>
+                <Button Text="Not a TDSB Student" FontAttributes="Bold"  Clicked="Handle_Clicked_NOT"  Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"/>
+                <Button Image="i.png" Clicked="Handle_Clicked" Grid.Row="3" Grid.Column="0"/>
+                <Button Image="i.png"  Clicked="Handle_Clickedi" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+            <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© TDSB Powered By Research And Information Services"/>
+
+        </StackLayout>
+
+	</ContentPage.Content>
+</ContentPage>

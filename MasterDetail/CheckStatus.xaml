@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.CheckStatus"
+    Padding="20"
+     xmlns:sys="clr-namespace:System;assembly=mscorlib">
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20">
+                 <StackLayout Padding="40,0,40,10">
+            <Image HorizontalOptions="Center" Source="logo.png"/>
+            </StackLayout>
+        <Label Text="Welcome to TDSB'S Specialized Registeration System" TextColor="#FF6F05"/>
+            <Label Text="To check your child's application fill the following information and click next to continue "/>
+            <Label Text="1. Child's Date of birth"/>
+                     <StackLayout>
+      <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static sys:DateTime.Now}">
+         <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+         <DatePicker.MinimumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Jan 1 2000</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MinimumDate>
+         <DatePicker.MaximumDate>
+            <sys:DateTime x:FactoryMethod="Parse">
+               <x:Arguments>
+                  <x:String>Dec 31 2050</x:String>
+               </x:Arguments>
+            </sys:DateTime>
+         </DatePicker.MaximumDate>
+      </DatePicker>
+   </StackLayout>
+            <StackLayout>
+            <Label Text="2. If your child's attending currently TDSB'S School enter the Ontario Education Number(OEN):"/>
+                <Grid>
+                <Entry Placeholder="123" Grid.Row="0" Grid.Column="0" Keyboard="Numeric"/>
+                    <Label Text="      -" Grid.Row="0" Grid.Column="1"/>
+                    <Entry Placeholder="456" Grid.Row="0" Grid.Column="2" Keyboard="Numeric" />
+                    <Label Text="     -" Grid.Row="0" Grid.Column="3"/>
+                    <Entry Placeholder="789" Grid.Row="0" Grid.Column="4" Keyboard="Numeric"/>
+
+                </Grid>
+                <Button Text="Where do i find OEN" Clicked="Handle_Clicked_OEN" HorizontalOptions="Start"/>
+            </StackLayout>
+            <StackLayout>
+            <Label Text="OR" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <Label Text="if your child is NOT CURRENTLY ATTENDING a TDSB school , enter the Reference Number that was provided when you applied"/>
+                <Grid>
+                <Entry Placeholder="123" Grid.Row="0" Grid.Column="0" Keyboard="Numeric"/>
+                    <Label Text="      -" Grid.Row="0" Grid.Column="1"/>
+                    <Entry Placeholder="456" Grid.Row="0" Grid.Column="2" Keyboard="Numeric"/>
+                    <Label Text="     -" Grid.Row="0" Grid.Column="3"/>
+                    <Entry Placeholder="789" Grid.Row="0" Grid.Column="4" Keyboard="Numeric"/>
+
+                </Grid>
+                    <Button Text="Where do i find Reference Number" HorizontalOptions="Start" Clicked="Handle_Clicked_REF"/>
+            </StackLayout>
+
+            <StackLayout>
+            <Label Text="3. Postel Code:"/>
+                    <Grid>
+                <Entry Placeholder="C1C" Grid.Row="0" Grid.Column="0" Keyboard="Chat"/>
+                  
+                    <Entry Placeholder="1C1" Grid.Row="0" Grid.Column="1" Keyboard="Default" />
+
+
+
+                </Grid>
+
+                </StackLayout>
+                <Button Text="next" Clicked="Handle_Clicked_NEXT"/>
+        </StackLayout>
+            </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.ChangeEmail"
+    Padding="20">
+        
+        <StackLayout>
+             <StackLayout Padding="40,0,40,10">
+            <Image  Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+        <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+        <StackLayout Spacing="20">
+      <Label Text="To change address type new address here"/>      
+        <Grid>
+            <Label Text="Current E-mail" Grid.Row="0" Grid.Column="0"/>
+                <Entry Keyboard="Email" Placeholder="Existing Address Go Here" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"/>
+                <Label VerticalOptions="Center" Text="New E-mail" Grid.Row="1" Grid.Column="0"/>
+                <Entry Keyboard="Email" Placeholder="Type New Email Here" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+                <Label Text="Confirm E-mail" Grid.Row="2" Grid.Column="0"/>
+                <Entry Keyboard="Email" Placeholder="Type Email Again Here" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+      
+
+        </Grid>
+            <StackLayout>
+            <Label x:Name="hello" TextColor="Green"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+               
+                <Button Text="Save New E-mail" Clicked="Handle_Clicked_save"/>
+               
+            
+               <Button Text="Cancel" Clicked="Handle_Clicked_cancel" />
+             
+
+            </StackLayout>
+            </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+            </StackLayout>
+   
+</ContentPage>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.ReasonPage" Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20">
+                 <StackLayout Padding="40,0,40,10">
+            <Image HorizontalOptions="Center" Source="logo.png"/>
+            </StackLayout>
+        <Label Text="Welcome to TDSB'S Specialized Registeration System" TextColor="#FF6F05"/>
+
+                <Label Text="Confirmation" TextColor="#FF6F05" FontAttributes="Bold" />
+                
+                <Frame>
+                <Grid>
+                <Label Text="Student Details" Grid.Row="0" TextColor="Green"/>
+                <Label Text="First Name" Grid.Row="1"/>
+                        <Label Text="Last Name" Grid.Row="2"/>
+                        <Label Text="OEN" Grid.Row="3"/>
+                        <Label Text="Date of Birth" Grid.Row="4"/>
+                        <Button Text="Change Email" Grid.Row="5"/>
+
+                </Grid>
+                    </Frame>
+                <StackLayout Spacing="05">
+                <Label Text="You have cancelled the application" TextColor="#FF6F05"/>
+                     <Grid >
+                <Label Text="Student" Grid.Row="0"/>
+                    <Label Text="Program" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="School" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="Status" Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="Data" Grid.Row="0" Grid.Column="1"/>
+                    <Label Text="Data" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Data" Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="Your child was placed in the above program and school but you chose to cancel the application,so the student will not be transfered" Grid.Row="3" Grid.Column="1" />
+                     </Grid>
+
+
+                </StackLayout>
+                <Frame>
+                <Button Text="Exit" FontSize="20" Clicked="Handle_Clicked" HeightRequest="10" WidthRequest="10"/>
+                </Frame>
+            </StackLayout>
+
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

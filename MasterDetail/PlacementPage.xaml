@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.PlacementPage"
+    Padding="20">
+	<ContentPage.Content>
+        <StackLayout>
+             <StackLayout Padding="40,0,40,10">
+            <Image HorizontalOptions="Center" Source="logo.png"/>
+            </StackLayout>
+            <Label Text="Welcome to TDSB'S Specialized Registeration System" TextColor="#FF6F05"/>
+        <Label Text="Please select one of the following options:"/>
+        <Grid>
+            <Label Text="Placement"  Grid.Row="0" Grid.Column="0" />
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="picker_accept" Title="Select Your Resonse" Grid.ColumnSpan="2"  >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>Proceed with this placement</x:String>
+      <x:String>Cancel with this Placement</x:String>
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+            <Button Text="Next" Clicked="Handle_Clicked_Next"/>
+
+          
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB4A61A7-39EA-441E-B020-59AC6FE820B7}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UseMSBuildEngine>true</UseMSBuildEngine>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MasterDetail</RootNamespace>
+    <AssemblyName>MasterDetail</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="App.xaml" />
+    <EmbeddedResource Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplyProgram.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TDSBstudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationNonTDSB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OENPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REFPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacementPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcceptancePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmation_Accept.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancellationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReasonPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.xaml" />
+    <EmbeddedResource Include="ContactUSPage.xaml" />
+    <EmbeddedResource Include="FAQPage.xaml" />
+    <EmbeddedResource Include="ApplicationPage.xaml" />
+    <EmbeddedResource Include="ChangeEmail.xaml" />
+    <EmbeddedResource Include="ConfirmationNonTDSB.xaml" />
+    <EmbeddedResource Include="ConfirmationPage.xaml" />
+    <EmbeddedResource Include="NotTDSB.xaml" />
+    <EmbeddedResource Include="PrintNonTDSB.xaml" />
+    <EmbeddedResource Include="StreetAddress.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NavigationMenu.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.xaml.cs">
+      <DependentUpon>MasterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageItem.cs" />
+    <Compile Include="ApplyProgram.xaml.cs">
+      <DependentUpon>ApplyProgram.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationNonTDSB.xaml.cs">
+      <DependentUpon>ApplicationNonTDSB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CheckStatus.xaml.cs">
+      <DependentUpon>CheckStatus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OENPage.xaml.cs">
+      <DependentUpon>OENPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="REFPage.xaml.cs">
+      <DependentUpon>REFPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OfferPage.xaml.cs">
+      <DependentUpon>OfferPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlacementPage.xaml.cs">
+      <DependentUpon>PlacementPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AcceptancePage.xaml.cs">
+      <DependentUpon>AcceptancePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation_Accept.xaml.cs">
+      <DependentUpon>Confirmation_Accept.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CancellationPage.xaml.cs">
+      <DependentUpon>CancellationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReasonPage.xaml.cs">
+      <DependentUpon>ReasonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.xaml.cs" />
+    <Compile Include="ApplicationPage.xaml.cs" />
+    <Compile Include="ChangeEmail.xaml.cs" />
+    <Compile Include="ConfirmationNonTDSB.xaml.cs" />
+    <Compile Include="ConfirmationPage.xaml.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="ContactUS.cs" />
+    <Compile Include="ContactUSPage.xaml.cs" />
+    <Compile Include="FAQPage.xaml.cs" />
+    <Compile Include="NotTDSB.xaml.cs" />
+    <Compile Include="PrintNonTDSB.xaml.cs" />
+    <Compile Include="StreetAddress.xaml.cs" />
+    <Compile Include="TDSBstudent.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\Assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\Assets\hamburger.png" />
+    <None Include="Properties\Assets\FAQ.png" />
+    <None Include="Properties\Assets\home.png" />
+    <None Include="Properties\Assets\phone.png" />
+    <None Include="Properties\Assets\TDSB_LogoWithText.jpg" />
+    <None Include="Properties\Assets\TDSB.jpg" />
+    <None Include="Properties\Assets\OEN.jpg" />
+    <None Include="Properties\Assets\RefNum.jpg" />
+    <None Include="Properties\Assets\apply.png" />
+    <None Include="Properties\Assets\check.png" />
+    <None Include="Properties\Assets\ClaudeWatson.jpg" />
+    <None Include="Properties\Assets\tdsbLogo.png" />
+    <None Include="Properties\Assets\i.png" />
+    <None Include="Properties\Assets\logo.jpg" />
+    <None Include="Properties\Assets\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.2.5.0.122203\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.122203\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />
+</Project>

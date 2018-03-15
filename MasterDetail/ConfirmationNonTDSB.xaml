@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MasterDetail.ConfirmationNonTDSB"
+    Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+
+        <StackLayout>
+                  <StackLayout Padding="40,0,40,10">
+                    <Image Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Label Text="Personal Information-Confirmation"/>
+            <Label Text="The following is a summary of your entries "/>
+                <Label Text="Click next to complete or modify to edit your entries"/>
+
+                <Label Text="Student Information"/>
+
+                <Frame>
+                <Grid>
+                        
+                <Label Text="Legal Last Name" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Legal First Name" Grid.Row="1" Grid.Column="0"/>
+                        <Label Text="Middle Name" Grid.Row="2" Grid.Column="0"/>
+                        <Label Text="Prefered First Name" Grid.Row="3" Grid.Column="0"/>
+                        <Label Text="Date Of Birth" Grid.Row="4" Grid.Column="0"/>
+                        <Label Text="Gender" Grid.Row="5" Grid.Column="0"/>
+                         <Label Text="Current Grade" Grid.Row="6" Grid.Column="0"/>
+                         <Label Text="Gender" Grid.Row="5" Grid.Column="0"/>
+
+
+
+                    </Grid>
+
+
+                </Frame>
+                <StackLayout>
+
+                <Label Text="Parent/Guardian Information"/>
+                    </StackLayout>
+                    <Frame>
+
+                    <Grid>
+                        
+                <Label Text="Salutation" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Legal Last Name" Grid.Row="1" Grid.Column="0"/> 
+                        <Label Text="Legal First Name" Grid.Row="2" Grid.Column="0"/>
+                        <Label Text="Middle Name" Grid.Row="3" Grid.Column="0"/>
+                        <Label Text="Prefered First Name" Grid.Row="4" Grid.Column="0"/>
+
+
+
+
+                    </Grid>
+
+
+                        
+                    </Frame>
+                <StackLayout>
+                <Label Text="Contact Information"/>
+                    
+                </StackLayout>
+                <Frame>
+                <Grid>
+                   <Label Text="Street No." Grid.Row="1" Grid.Column="0"/> 
+                        <Label Text="Street" Grid.Row="2" Grid.Column="0"/>
+                        <Label Text="City" Grid.Row="3" Grid.Column="0"/>
+                        <Label Text="Province" Grid.Row="4" Grid.Column="0"/>
+                        <Label Text="Country" Grid.Row="5" Grid.Column="0"/>
+                        <Label Text="Home Phone" Grid.Row="6" Grid.Column="0"/>
+                        <Label Text="Work Phone" Grid.Row="7" Grid.Column="0"/>
+                        <Label Text="Email" Grid.Row="8" Grid.Column="0"/>
+                        
+
+
+
+                    </Grid>
+
+                </Frame>
+                <StackLayout Orientation="Horizontal" Spacing="50">
+                    <Button Text="Exit" Clicked="Handle_ClickedExit" />
+                <Button Text="Modify" Clicked="Handle_Clicked_Modify"/>
+                <Button Text="Next" Clicked="Handle_Clicked_Next" />
+                </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+        </StackLayout>
+            </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

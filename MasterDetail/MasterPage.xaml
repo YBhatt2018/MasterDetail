@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MasterDetail"
+    x:Class="MasterDetail.MasterPage"
+    Padding="20" Title="Master" Icon="hamburger.png">
+    <StackLayout BackgroundColor="Gray">
+        <ListView x:Name="listView" RowHeight="70" HasUnevenRows="true" SeparatorColor="Black">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:MasterPageItem}">
+                    <local:MasterPageItem Title="Home" IconSource="home.png" TargetType="{x:Type local:HomePage}" />
+                    <local:MasterPageItem Title="FAQ" IconSource="FAQ.png" TargetType="{x:Type local:FAQPage}" />
+                    <local:MasterPageItem Title="Contact-Us" IconSource="phone.png" TargetType="{x:Type local:ContactUSPage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="30,20,20,20">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label FontSize="22" Grid.Column="1" Text="{Binding Title}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

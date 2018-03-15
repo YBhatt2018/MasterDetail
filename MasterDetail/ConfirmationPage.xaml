@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.ConfirmationPage"
+    Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+                <StackLayout Padding="40,0,40,10">
+                    <Image Source="logo.png" VerticalOptions="Start" HeightRequest="70" Aspect="AspectFit"/>
+            </StackLayout>
+                <Label HorizontalOptions="Center" FontSize="22" HorizontalTextAlignment="Center" Text="Welcome to TDSB's Specialized Program Registration system." TextColor="#E38947" />
+                <Label Text="Thank you , you have successfully submitted the application"/>
+            <StackLayout Padding="0,50,0,0">
+            <Frame>
+            <Grid>
+            <Label Text="First Name" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Last Name" Grid.Row="1" Grid.Column="0"/>
+                        <Label Text="OEN" Grid.Row="2" Grid.Column="0"/>
+                        <Label Text="Dated of Birth" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="Change Email here" Clicked="Handle_Clicked_email" Grid.Row="4"/>
+                    </Grid>
+
+
+                </Frame>
+
+
+            </StackLayout>
+
+            <Grid Padding="0,50,0,0" RowSpacing="10">
+            <Label Text="Status"  Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Next Steps" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="Student" Grid.Row="6" Grid.Column="0"/>
+                <Label Text="Your application is recieved and an audition will be scheduled for the student" Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+                <Label Text="You will be notifed for the date and time of the audiotion" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                <Label Text="Name" Grid.Row="6" Grid.Column="1"/>
+            </Grid>
+
+            <StackLayout>
+                   
+                        <Button Text="Exit" Clicked="Handle_Clicked_exit"/>
+                   
+                </StackLayout>
+              <Label VerticalOptions="EndAndExpand" FontSize="12" Text="© @TDSB Powered By Research And Information Services"/>
+
+            
+        </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

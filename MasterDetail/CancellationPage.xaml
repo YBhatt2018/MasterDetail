@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MasterDetail.CancellationPage"
+    Padding="20">
+	<ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20">
+                 <StackLayout Padding="40,0,40,10">
+            <Image HorizontalOptions="Center" Source="logo.png"/>
+            </StackLayout>
+                <Label Text="Welcome to TDSB'S Specialized Registeration System" TextColor="#FF6F05"/>
+                <Frame>
+                <Grid>
+                <Label Text="Student Details" Grid.Row="0" TextColor="Green"/>
+                <Label Text="First Name" Grid.Row="1"/>
+                        <Label Text="Last Name" Grid.Row="2"/>
+                        <Label Text="OEN" Grid.Row="3"/>
+                        <Label Text="Date of Birth" Grid.Row="4"/>
+                        <Button Text="Change Email" Grid.Row="5"/>
+
+                </Grid>
+                    </Frame>
+                <Label Text="Cancel Placement" FontAttributes="Bold" TextColor="#FF6F05"/>
+                <Grid >
+                <Label Text="Student" Grid.Row="0"/>
+               <Label Text="Placement:" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="You have been offered the following placement" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Program" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="School" Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="Grade" Grid.Row="4" Grid.Column="0"/>
+                </Grid>
+                <StackLayout>
+                <Label Text="Please check your reasons for your cancellation"/>
+                 <Grid>
+            <Label Text="Cancel"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="picker_cancellation" Title="Select Your Resonse" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+
+    <x:String>Decided to remain in current program </x:String>
+        <x:String>Unable to find suitable day care</x:String>
+         <x:String>Choose another specailized program</x:String>
+         <x:String>Too far from home</x:String>
+       
+               
+
+
+       
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+            <Label Text="For other reason please enter below:"/>
+                    <Frame>
+                    <Editor Text="" VerticalOptions="FillAndExpand" Keyboard="Chat"/>
+                        </Frame>
+                </StackLayout>
+        <Label Text="Please read the following information and check (I agree and wish to cancel ) to confirm that you have read and understood the information presented"/>
+            <Frame>
+                <StackLayout>
+
+          <Label Text="I understand that by declining"/>
+                    <Label Text="1. My child will return to their current school or apply for an alternate programe under optional attandance anda all procedures relating to this procedure apply"/>
+                    </StackLayout>
+            </Frame>
+
+                 <Grid>
+            <Label Text="Acceptance"  Grid.Row="0" Grid.Column="0"/>
+            <Picker Grid.Row="0" Grid.Column="1" x:Name="picker_acceptance" Title="Select Your Resonse" Grid.ColumnSpan="2" >
+  <Picker.ItemsSource>
+    <x:Array Type="{x:Type x:String}">
+      <x:String>I Agree and wish to cancel the application</x:String>
+
+
+    </x:Array>
+  </Picker.ItemsSource>
+</Picker>
+            </Grid>
+                <Button Text="Cancel the application" Clicked="Handle_Clicked_Cancel"/>
+        </StackLayout>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>
